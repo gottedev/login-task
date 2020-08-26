@@ -8,10 +8,11 @@ function Input({
   type,
   label,
   required,
+  className,
   ...props
 }) {
   return (
-    <div className="Input-Container">
+    <div className={`${className ? className : "Input-Container"}`}>
       <label for={label}>{label}</label>
       <input
         id={label}
