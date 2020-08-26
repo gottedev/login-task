@@ -1,5 +1,4 @@
 import React from "react";
-import "./image.scss";
 
 function Image({ src, alt, className, ...props }) {
   return (

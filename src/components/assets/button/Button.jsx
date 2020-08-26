@@ -1,5 +1,4 @@
 import React from "react";
-import "./button.scss";
 
 function Button({ text, onClickHandler, type, ...props }) {
   return (
