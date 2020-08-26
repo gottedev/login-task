@@ -1,0 +1,12 @@
+@import "../../variables.scss";
+
+.Card-Container {
+  min-width: 300px;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  padding: 30px 30px 30px 30px;
+  background: $bg-color-card;
+  box-shadow: $box-shadow;
+  border-radius: $border-radius;
+}
