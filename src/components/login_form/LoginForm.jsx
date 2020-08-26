@@ -10,7 +10,7 @@ function LoginForm(props) {
         <Image src={logo} alt="green enery logo" />
         <div className="Title-Container">
           <h2>Example login screen</h2>
-          <p>Getting started with Green</p>
+          <p>&nbsp;Getting started with Green.</p>
         </div>
         <Input type="email" label="Email Address" />
         <Input
@@ -18,7 +18,7 @@ function LoginForm(props) {
           label="Remember this device"
           className="Checkbox-Container"
         />
-        <Button type="submit" text="Sign In" />
+        <Button className="Login-Button" type="submit" text="Sign In" />
       </Card>
     </div>
   );
