@@ -1,0 +1,25 @@
+@import "variables.scss";
+
+@font-face {
+  font-family: "Gotham";
+  src: url(fonts/Gotham.otf);
+}
+
+html {
+  box-sizing: border-box;
+  height: 100%;
+  font-size: $base-fontSize;
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+  body {
+    font-family: $font-family;
+    padding: 0;
+    margin: 0;
+    font-size: 1.6rem;
+    line-height: 2;
+    background: $bg-color;
+  }
+}
