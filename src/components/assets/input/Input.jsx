@@ -13,7 +13,7 @@ function Input({
 }) {
   return (
     <div className={`${className ? className : "Input-Container"}`}>
-      <label for={label}>{label}</label>
+      <label htmlFor={label}>{label}</label>
       <input
         id={label}
         type={type}
