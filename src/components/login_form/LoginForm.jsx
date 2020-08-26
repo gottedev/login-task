@@ -12,13 +12,13 @@ function LoginForm(props) {
           <h2>Example login screen</h2>
           <p>Getting started with Green</p>
         </div>
-        <Input type="email" label="Email address" />
+        <Input type="email" label="Email Address" />
         <Input
           type="checkbox"
           label="Remember this device"
           className="Checkbox-Container"
         />
-        <Button type="submit" text="Sign-in" />
+        <Button type="submit" text="Sign In" />
       </Card>
     </div>
   );
