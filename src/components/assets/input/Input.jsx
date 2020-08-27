@@ -10,6 +10,7 @@ function Input({
   label,
   required,
   className,
+  childElement,
   ...props
 }) {
   return (
@@ -24,6 +25,7 @@ function Input({
         required={required || false}
         {...props}
       />
+      {childElement && childElement}
     </div>
   );
 }
@@ -36,9 +38,11 @@ Input.propTypes = {
   type: PropTypes.string,
   onChangeHandler: PropTypes.func,
   required: PropTypes.bool,
+  childElement: PropTypes.node,
 };
 
 Input.defaultProps = {
+  childElement: '',
   label: '',
   type: '',
   value: '',
