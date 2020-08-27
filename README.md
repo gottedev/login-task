@@ -6,6 +6,11 @@ Thanks for the coding challenge
 
 -> Click the link for the demo: https://gottedev.github.io/login-task/
 
+## App Demo and Code Version 2 --Quickly made using Antd
+
+-> Click the link for the demo: https://gottedev.github.io/login-task-v2/
+-> source : https://github.com/gottedev/login-task-v2
+
 ## App Architecture
 
 1.Every view Element like Button is a view Component, Completely Reusable and customizable from outside <br/>
