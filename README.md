@@ -4,7 +4,7 @@ Thanks for the coding challenge
 
 ## App Demo
 
--> Click here for the demo: https://gottedev.github.io/login-task/
+-> Click the link for the demo: https://gottedev.github.io/login-task/
 
 ## App Architecture
 
