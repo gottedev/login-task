@@ -1,4 +1,5 @@
-import React from "react";
+import React from 'react';
+import PropTypes from 'prop-types';
 
 function Input({
   placeHolder,
@@ -11,7 +12,7 @@ function Input({
   ...props
 }) {
   return (
-    <div className={`${className ? className : "Input-Container"}`}>
+    <div className={`${className ? className : 'Input-Container'}`}>
       <label htmlFor={label}>{label}</label>
       <input
         id={label}
@@ -25,5 +26,25 @@ function Input({
     </div>
   );
 }
+
+Input.propTypes = {
+  label: PropTypes.string,
+  placeHolder: PropTypes.string,
+  value: PropTypes.string,
+  className: PropTypes.string,
+  type: PropTypes.string,
+  onChangeHandler: PropTypes.func,
+  required: PropTypes.bool,
+};
+
+Input.defaultProps = {
+  label: '',
+  type: '',
+  value: '',
+  onChangeHandler: () => {},
+  className: '',
+  placeHolder: '',
+  required: false,
+};
 
 export default Input;

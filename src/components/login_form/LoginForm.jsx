@@ -1,10 +1,10 @@
-import React, { useState } from "react";
-import { Card, Image, Input, Button } from "../assets";
-import logo from "../../icons/logo.svg";
-import "./loginform.scss";
+import React, { useState } from 'react';
+import { Card, Image, Input, Button } from '../assets';
+import logo from '../../icons/logo.svg';
+import './loginform.scss';
 
-function LoginForm(props) {
-  const [email, setEmail] = useState("");
+function LoginForm() {
+  const [email, setEmail] = useState('');
   const [checked, setChecked] = useState(false);
 
   const emailHandler = (e) => {
@@ -17,7 +17,7 @@ function LoginForm(props) {
 
   const submitHandler = (e) => {
     e.preventDefault();
-    alert("Thanks for the Coding Test");
+    alert('Thanks for the Coding Test');
   };
 
   return (

@@ -1,12 +1,22 @@
-import React from "react";
-import "./card.scss";
+import React from 'react';
+import PropTypes from 'prop-types';
+import './card.scss';
 
-function Card({ className, children, ...props }) {
+const Card = ({ className, children, ...props }) => {
   return (
-    <div className={className ? className : "Card-Container"} {...props}>
+    <div className={className ? className : 'Card-Container'} {...props}>
       {children}
     </div>
   );
-}
+};
+
+Card.propTypes = {
+  className: PropTypes.string,
+  children: PropTypes.element.isRequired,
+};
+
+Card.defaultProps = {
+  className: '',
+};
 
 export default Card;
