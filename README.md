@@ -2,6 +2,10 @@ Green.Energy Design To Reality Task. <br />
 
 Thanks for the coding challenge
 
+## App Demo
+
+-> Click here for the demo: https://gottedev.github.io/login-task/
+
 ## App Architecture
 
 1.Every view Element like Button is a view Component, Completely Reusable and customizable from outside <br/>
@@ -26,5 +30,5 @@ Thanks for the coding challenge
 ## App Scripts
 
 1.npm start: to start the app<br/>
-2.npm deploy: to deploy the app to gh-pages(there is a pre-deploy hook that runs to make the build)<br/>
+2.npm run deploy: to deploy the app to gh-pages(there is a pre-deploy hook that runs to make the build)<br/>
 3.npm run Build: for production build of the app<br/>
