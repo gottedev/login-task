@@ -43,7 +43,8 @@ function LoginForm() {
               checked={checked}
               label="Remember this device"
               className="Remember-Container"
-              onChange={checkboxHandler}
+              onClick={checkboxHandler}
+              childElement={<span />}
             />
           </div>
           <Button className="Login-Button" type="submit" text="Sign In" />
