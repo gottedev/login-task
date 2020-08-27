@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-props-no-spreading */
 import React from 'react';
 import PropTypes from 'prop-types';
 
@@ -12,7 +13,7 @@ function Input({
   ...props
 }) {
   return (
-    <div className={`${className ? className : 'Input-Container'}`}>
+    <div className={`${className || 'Input-Container'}`}>
       <label htmlFor={label}>{label}</label>
       <input
         id={label}
@@ -20,7 +21,7 @@ function Input({
         placeholder={placeHolder}
         value={value}
         onChange={onChangeHandler}
-        required={required ? true : false}
+        required={required || false}
         {...props}
       />
     </div>

@@ -1,9 +1,10 @@
+/* eslint-disable react/jsx-props-no-spreading */
 import React from 'react';
 import PropTypes from 'prop-types';
 
 function Image({ src, alt, className, ...props }) {
   return (
-    <div className={`${className ? className : 'Image-Container'}`}>
+    <div className={`${className || 'Image-Container'}`}>
       <img src={src} alt={alt} {...props} />
     </div>
   );
