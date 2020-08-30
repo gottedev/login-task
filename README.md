@@ -2,6 +2,11 @@ Green.Energy Design To Reality Task. <br />
 
 Thanks for the coding challenge
 
+## Note:
+
+-> Replaced Gotham.ttf recently because previous version of Gotham.ttf file which is downloaded from <br/>
+different source causing problems while rendering in safari, this doesn't change any challenge code, only changes font file and updates readme
+
 ## App Demo
 
 -> Click the link for the demo: https://gottedev.github.io/login-task/
