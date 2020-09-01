@@ -26,7 +26,7 @@ function LoginForm() {
         <Image className="Logo-Container" src={logo} alt="green enery logo" />
         <div className="Title-Container">
           <h2>Example login screen</h2>
-          <p>&nbsp;Getting started with Green.</p>
+          <p>Getting started with Green.</p>
         </div>
         <form onSubmit={submitHandler}>
           <div className="Field-Container">
@@ -44,7 +44,7 @@ function LoginForm() {
               label="Remember this device"
               className="Remember-Container"
               onClick={checkboxHandler}
-              childElement={<span />}
+              childElement={<span className="Checkbox-Decorator" />}
             />
           </div>
           <Button className="Login-Button" type="submit" text="Sign In" />
